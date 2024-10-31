@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <span class="role"></span>
+    
+    <canvas id="app"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typeData = new Typed(".role", {
+        strings:  [
+        "May your Diwali be as bright as your ideas. Happy Diwali! 🪔✨",
+        "Wishing you a Diwali filled with light and inspiration. 🪔💡",
+        "May this Diwali bring you success and bug-free code. 🪔✨",
+        "Celebrate Diwali with joy and prosperity. Happy Diwali! 🪔💻",
+        "Let the light of Diwali guide you to success. 🪔✨"
+      ],
+      
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
+      });
+    </script>
+    
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
